@@ -1,0 +1,22 @@
+{
+  "broll": [
+    {"file": "broll/tea-window.mp4",            "orient": "vertical",  "dur": 17, "moods": ["warmth","morning","reflection","solitude"]},
+    {"file": "broll/serving-parent.mp4",        "orient": "vertical",  "dur": 9,  "moods": ["care","family","parent","intergenerational"]},
+    {"file": "broll/vintage-photos.mp4",        "orient": "landscape", "dur": 5,  "moods": ["memory","photos","past","nostalgia"]},
+    {"file": "broll/grandfather-grandchild.mp4","orient": "landscape", "dur": 15, "moods": ["generations","grandparent","joy","legacy"]},
+    {"file": "broll/mother-daughter.mp4",       "orient": "landscape", "dur": 38, "moods": ["closeness","mother","love","connection"]},
+    {"file": "broll/hands-photo.mp4",           "orient": "vertical",  "dur": 7,  "moods": ["memory","story","photo","hands","elderly"]},
+    {"file": "broll/writing.mp4",               "orient": "vertical",  "dur": 7,  "moods": ["words","writing","recording","their-words"]},
+    {"file": "broll/window-reflection.mp4",     "orient": "landscape", "dur": 7,  "moods": ["reflection","aging","solitude","hook"]}
+  ],
+  "app": [
+    {"file": "app/app-typing.mov",          "shows": "answering a question (typing / speech-to-text)"},
+    {"file": "app/app-answer.mov",          "shows": "a saved answer"},
+    {"file": "app/app-create-profile.mov",  "shows": "creating a parent profile"},
+    {"file": "app/app-answering.mov",       "shows": "answering a question"},
+    {"file": "app/app-profile-portrait.mov","shows": "parent profile (portrait)"},
+    {"file": "app/app-add-father.mov",      "shows": "adding a father's profile"}
+  ],
+  "logo": {"ring": "LM monogram (render in code)", "png": "logo/logo.png", "square": "logo/logo-square.png"},
+  "note": "Moods are hints for matching footage to a reel's beats. Landscape clips are center-cropped to 1080x1920. Top up with new clips periodically; see README."
+}
