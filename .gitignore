@@ -1,0 +1,4 @@
+node_modules/
+_work/
+*.mp4
+!broll/*.mp4
