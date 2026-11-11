@@ -100,6 +100,49 @@
         "warmth",
         "story"
       ]
+    },
+    {
+      "file": "broll/older-man-window.mp4",
+      "orient": "vertical",
+      "dur": 8,
+      "moods": [
+        "father",
+        "elderly",
+        "solitude",
+        "reflection",
+        "window",
+        "hook"
+      ],
+      "desc": "An older grey-haired man sits alone in a wicker chair, back to camera, looking out a tall bright window in an old tiled room. Quiet, still, a little lonely. Strong opening (hook) shot for reels about a father who never talks about himself, distance, or time running out."
+    },
+    {
+      "file": "broll/grandpa-cooking-alone.mp4",
+      "orient": "vertical",
+      "dur": 10,
+      "moods": [
+        "father",
+        "grandfather",
+        "elderly",
+        "kitchen",
+        "cooking",
+        "everyday",
+        "alone"
+      ],
+      "desc": "A white-haired older man in a tan shirt cooks alone at a stove in a bright modern kitchen, turning food in a pan with tongs; tomatoes and lemons on the counter. Ordinary daily life. Good for 'the stories behind the dishes', 'a dad living on his own', or a gentle middle beat. A small US flag is visible in the background, so it suits US-audience reels."
+    },
+    {
+      "file": "broll/dinner-table.mp4",
+      "orient": "vertical",
+      "dur": 17,
+      "moods": [
+        "holiday",
+        "table",
+        "family",
+        "meal",
+        "gathering",
+        "warmth"
+      ],
+      "desc": "Overhead view of a long family dinner table covered with many shared dishes (meats, salads, olives, pastries, sauces); hands reach in to serve and eat. Feels like a holiday or big family gathering, but there is no turkey, so use it for 'around the table', Christmas or family-gathering reels rather than claiming it is Thanksgiving dinner."
     }
   ],
   "app": [
@@ -133,5 +176,5 @@
     "png": "logo/logo.png",
     "square": "logo/logo-square.png"
   },
-  "note": "Moods are hints for matching footage to a reel's beats. Landscape clips are center-cropped to 1080x1920. Top up with new clips periodically; see README."
+  "note": "Moods are hints for matching footage to a reel's beats. 'desc' (where present) describes what is actually in the clip; read it before choosing footage. Landscape clips are center-cropped to 1080x1920. Top up with new clips periodically; see README."
 }

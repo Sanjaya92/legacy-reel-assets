@@ -95,7 +95,12 @@ const ask = q => new Promise(res => rl.question(q, res));
     let moods = (await ask('   Enter moods for this clip (comma-separated): ')).trim();
     while (!moods) moods = (await ask('   Please type at least one mood: ')).trim();
     const moodArr = moods.split(',').map(m => m.trim()).filter(Boolean);
-    data.broll.push({ file: 'broll/' + f, orient: orient, dur: dur, moods: moodArr });
+    console.log('   Now one sentence on what is actually in the clip (who, where, what happens).');
+    console.log('   example: An older man sits alone by a bright window, looking out.');
+    const desc = (await ask('   Describe this clip (or press Enter to skip): ')).trim();
+    const entry = { file: 'broll/' + f, orient: orient, dur: dur, moods: moodArr };
+    if (desc) entry.desc = desc;
+    data.broll.push(entry);
     console.log('   ✓ added broll/' + f + '  [' + moodArr.join(', ') + ']');
   }
   rl.close();
